@@ -20,7 +20,7 @@ public class ComputeController {
         return r;
     }
 
-    @GetMapping("/dc")
+    @PostMapping("/dc")
     public String dc(){
         //Thread.sleep(5000L);
         String services = "/dc, Services: " + client.getServices();
